@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+#resultShow img {
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    margin: 2px;
+    object-fit: cover;
+    border: 10px solid white;
+}
+
+#resultShow img:hover {
+    border-color: black;
+}
+
+#resultShow {
+    width: 100%;
+}
+
+#resultShow div {
+    display: inline;
+}
+
+.footer {
+    text-align: left;
+}
+
+#camera {
+    width: 40%;
+    height: 40%;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px;
+}
+
+#startButton {
+    font-size: 20px;
+    margin: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.footer hr {
+    border: 1px solid gray;
+    background-color: gray;
+}
